@@ -16,15 +16,21 @@ void fastread(){
 }
 
 #define f first
-#define s second
+#define sec second
 #define sp " "
 #define MOD 1000000007
 #define PI 3.1415926535897932384626433832795
 #define ll long long
 #define endl "\n"
-#define testcase  int t=1;while(t--)
+#define testcase  int t;cin>>t;while(t--)
+#define testcases  int t=1;while(t--)
+
+//STL
 #define pb push_back
 #define eb emplace_back
+#define all(v) v.begin(),v.end()
+#define asc(v) sort(all(v))
+#define dsc(v) asc(v),reverse(all(v))
 
 //types
 #define pii pair<int, int>
@@ -44,18 +50,17 @@ ll max(ll a,int b) { if (a>b) return a; return b; }
 ll max(int a,ll b) { if (a>b) return a; return b; }
 ll gcd(ll a,ll b) { if (b==0) return a; return gcd(b, a%b); }
 ll lcm(ll a,ll b) { return a/gcd(a,b)*b; }
+#define dp_x(x) cout<<x<<endl
 
-
-void solve(){
-  
-//code here
+void solve() {
+   // write code
 }
 
-int32_t main(){
+int main(){
    fastread();
    hello();
 
-  testcase{
+  testcases{
    solve();
   }
 return 0;
